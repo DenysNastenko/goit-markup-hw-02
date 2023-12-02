@@ -45,7 +45,7 @@ a {
   text-transform: uppercase;
 }
 
-.link {
+.link, .link-active {
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -55,26 +55,18 @@ letter-spacing: 0.02em;
 color:#2e2f42
 
 }
-.link:hover  { 
+.link:hover, .link-active:hover  { 
     color:#404BBF;
 }
-.link-active {
- border-radius: 2px;
- text-decoration: underline;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:#2e2f42
-
-
-
-
+.link-active:active {
+        color: red; 
 }
- 
 
+
+
+
+ 
+/* telimail */
 
 .link-adress {
     font-family: Roboto;
