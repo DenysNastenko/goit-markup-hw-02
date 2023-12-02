@@ -58,7 +58,7 @@ header {
   color: #404bbf;
 }
 .link-active:active {
-  color: red;
+  color: #404bbf;
 }
 
 /* telimail */
