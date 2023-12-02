@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: Roboto, Raleway, sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -19,11 +19,7 @@ a {
   text-decoration: none;
 }
 /* header */
-header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.logo {
+.studio_header {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
@@ -33,16 +29,16 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.web {
-  color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
+
+
+
+
+
+
+
+
+
 
 .link,
 .link-active {
@@ -64,8 +60,8 @@ header {
 /* telimail */
 
 .link-adress {
-  font-size: 16px;
   font-style: normal;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -88,14 +84,11 @@ h1 {
 }
 /* button */
 button {
-  border-radius: 4px;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: #fff;
+    background: #4d5ae5;
+    color: #fff;
 }
 .batton-text {
   font-size: 16px;
-
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -113,33 +106,28 @@ h3 {
 
 p {
   font-size: 16px;
-
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* our team */
 h2 {
-  text-align: center;
-
-  font-size: 36px;
+   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.title {
-  font-size: 20px;
 
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.title-text {
-  font-size: 16px;
 
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+
+
+
+
+
+
+
+
+
 .fone {
   background-color: #f4f4fd;
 }
@@ -149,21 +137,84 @@ footer {
   background-color: #2e2f42;
 }
 /* logo */
-.logo-foot {
-  color: #f4f4fd;
-  font-family: Raleway;
-  font-size: 18px;
 
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+
+.logo_footer {
+  color: #4D5AE5  ;
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
+.studio_footer {
+  color: #F4F4FD;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+} 
+  
+  
+  
+  
+  
+  
+  
+  
 
-.footer-text {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_text {
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
 }
+
+
+
+
+
+
