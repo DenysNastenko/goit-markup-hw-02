@@ -1,37 +1,37 @@
-header {
-    background-color: white;
-    border-bottom: 1px solid  #E7E9FC;
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
- .logo 
- {
-    color:  #2E2F42;
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 21px; /* 116.7% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2e2f42;
 }
-.web {color:  #4D5AE5;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px; /* 116.7% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-
+ul, ol {
+	list-style-type: none;
 }
 
-
-
-
-
-
-
-
-
-
-
+.logo {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 116.7% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.web {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 116.7% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
