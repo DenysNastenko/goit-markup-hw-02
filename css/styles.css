@@ -14,9 +14,12 @@ h6 {
 ul, ol {
 	list-style-type: none;
 }
+a {
+    text-decoration: none;
+  }
 
 .logo {
-  color: #2e2f42;
+  color:#2e2f42 ;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
