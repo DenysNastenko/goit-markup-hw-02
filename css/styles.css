@@ -23,7 +23,6 @@ a {
   color: #2e2f42;
   font-family: Raleway, sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -153,7 +152,7 @@ text-transform: capitalize;
 }
 /* footer */
 
-footer {
+.bgrnd_footer {
   background-color: #2e2f42;
 }
 /* logo */
@@ -173,10 +172,9 @@ text-transform: uppercase;
   color: #F4F4FD;
 font-family: Raleway, sans-serif;
 font-size: 18px;
-font-style: normal;
 font-weight: 700;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
+line-height: 1.17;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 } 
   
