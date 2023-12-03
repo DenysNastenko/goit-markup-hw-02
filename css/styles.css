@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -43,7 +43,7 @@ a {
 }
 
 /* telimail */
-address {
+.font_style_adrs {
   font-style: normal;
 }
 
@@ -52,10 +52,10 @@ address {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: #434455;
 }
 .link-adress:hover,
-.link-adres:focus {
+.link-adress:focus {
   color: #404bbf;
 }
 
@@ -89,6 +89,7 @@ address {
 }
 /* section-2 */
 .title {
+  text-align: center;
   color: #2e2f42;
   font-family: Roboto;
   font-size: 36px;
@@ -112,7 +113,7 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* our team */
+/* section 3 our team */
 .item_list {
   background-color: #ffffff;
 }
@@ -133,10 +134,9 @@ address {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .studio_footer {
